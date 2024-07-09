@@ -1,0 +1,5 @@
+hello."0"	world
+hello.foo.bar	"wo""rld"
+hello.foo.baz	""
+goodbye.foo.0	bar
+goodbye.foo.1	123

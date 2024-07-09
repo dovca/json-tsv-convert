@@ -1,0 +1,15 @@
+{
+  "hello": {
+    "0": "world",
+    "foo": {
+      "bar": "wo\"rld",
+      "baz": ""
+    }
+  },
+  "goodbye": {
+    "foo": [
+      "bar",
+      123
+    ]
+  }
+}

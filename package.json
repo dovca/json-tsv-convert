@@ -1,0 +1,22 @@
+{
+  "name": "@dovca/json-tsv-convert",
+  "version": "0.0.1",
+  "type": "module",
+  "homepage": "https://github.com/dovca/json-tsv-convert",
+  "main": "./src/index.ts",
+  "bin": {
+    "json2tsv": "./bin/json2tsv.ts",
+    "tsv2json": "./bin/tsv2json.ts"
+  },
+  "files": [
+    "bin",
+    "src",
+    "tsconfig.json"
+  ],
+  "dependencies": {
+    "@dovca/toolbox": "npm:@jsr/dovca__toolbox@latest"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.1.4"
+  }
+}
